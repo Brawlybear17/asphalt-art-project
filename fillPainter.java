@@ -1,0 +1,131 @@
+import org.code.neighborhood.*;
+public class fillPainter extends PainterPlus {
+//paints the head of the owl with a color
+  public void paintHead (String color) {
+    turnRight();
+    move();
+    turnLeft();
+move();
+    paint(color);
+    move();
+    paint(color);
+    move();
+    move();
+    paint(color);
+    move();
+    paint(color);
+    move();
+    paint(color);
+    move();
+    paint(color);
+     move();
+    move();
+    paint(color);
+    move();
+    paint(color);
+    turnRight();
+    move();
+    turnRight();
+     move();
+    paint(color);
+     move();
+    paint(color);
+     move();
+    paint(color);
+     move();
+    paint(color);
+     move();
+    paint(color);
+     move();
+    paint(color);
+     move();
+    paint(color);
+     move();
+    paint(color);
+    turnLeft();
+    move();
+    paint(color);
+    turnLeft();
+    move();
+    move();
+     move();
+    paint(color);
+      move();
+    paint(color);
+      move();
+    move();
+     move();
+    paint(color);
+    moveToCorner();
+  }
+//paints body of owl with brown and some orange
+  public void paintBody (String color) {
+while (canMove("east")) {
+   moveFast();
+}
+  turnRight();
+    moveFast();
+    turnRight();
+    setPaint(10);
+run();
+    move();
+    turnRight();
+    move();
+    turnRight();
+    setPaint(10);
+    run();
+    move();
+    turnLeft();
+    move();
+    turnLeft();
+        setPaint(10);
+    run();
+      move();
+    turnRight();
+    move();
+    turnRight();
+    setPaint(10);
+    run();
+    turnLeft();
+    move();
+    turnLeft();
+        setPaint(100);
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    move();
+    paint("orange");
+    move();
+    paint("orange");
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    turnRight();
+    move();
+    turnRight();
+        paint("brown");
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    move();
+    paint("orange");
+    move();
+    paint("orange");
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    move();
+    paint("brown");
+    moveToCorner();
+  } 
+
+  
+}
